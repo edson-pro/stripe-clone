@@ -1625,7 +1625,7 @@ video {
 
   /*a name to be used later*/
 
-  src: url("../src/fonts/1.woff2");
+  src: url("./fonts/1.woff2");
 
   /*URL to font*/
 }
@@ -2182,25 +2182,6 @@ html[lang^="fr"] .GlossierCheckoutCartGraphic__itemButton {
 
 .Section__layout {
   padding: 204px 0 150px;
-}
-
-.ff {
-  width: 100vw;
-  height: 100%;
-  display: grid;
-  overflow: hidden;
-  transform-origin: top;
-  transform: skewX(0deg);
-}
-
-.ff::after {
-  content: "";
-  z-index: 1000;
-  position: relative;
-  background: #0a2540;
-  transform: skewY(-6deg);
-  transform-origin: top ri;
-  background-size: 200% 200%;
 }
 
 .hover\:text-white:hover {
