@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Stripe"; /*a name to be used later*/
+  src: url("./fonts/1.woff2"); /*URL to font*/
+}
+.touchpad__front {
+  background: linear-gradient(#4b5f74, #273f57);
+  box-shadow: 0 1px 1px 0 rgb(6 24 44 / 20%),
+    inset 0 1px 1px 0 hsl(0deg 0% 100% / 30%);
+}
+.screen-top {
+  background: linear-gradient(#1c354e, #0b2641);
+  box-shadow: 0 1px 1px 0 hsl(0deg 0% 100% / 10%);
+}
+.touchpad__button {
+  background: linear-gradient(rgba(10, 37, 64, 0), rgba(10, 37, 64, 0.25));
+  box-shadow: 0 0 0 2px rgb(6 24 44 / 40%), 0 4px 6px -1px rgb(6 24 44 / 65%),
+    inset 0 1px 0 hsl(0deg 0% 100% / 8%);
+}
+.token.keyword {
+  color: #00d4ff;
+}
+.token.operator {
+  color: #fff;
+}
+.token.function {
+  color: #00d4ff;
+}
+.token.string {
+  color: #ffa956;
+}
+.token.punctuation {
+  color: #fff;
+}
+
+.CodeTerminal__promptSign {
+  color: #8095ff;
+  margin-right: 5px;
+}
+.CodeTerminal__bufferPiece--meta {
+  color: #55718d;
+}
+
+.cc {
+  transform: skewY(-6deg);
+}
+.ccc {
+  transform: skewY(-12deg);
+  transform-origin: 0px;
+}
+
+.a {
+  /* transform-origin: 100% 0; */
+}
+
+.Section__layout {
+  padding: 204px 20px 150px;
+}
+
+.PhoneGraphic {
+  --phoneBorderRadius: 36px;
+  --phoneScreenBorderRadius: 33px;
+  --phoneWidth: 264px;
+  --phoneHeight: 533px;
+  width: var(--phoneWidth);
+  height: var(--phoneHeight);
+  padding: 8px;
+  border-radius: var(--phoneBorderRadius);
+  background: #f6f9fc;
+  box-shadow: 0 50px 100px -20px rgb(50 50 93 / 25%),
+    0 30px 60px -30px rgb(0 0 0 / 30%), inset 0 -2px 6px 0 rgb(10 37 64 / 35%);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 16px;
+  position: relative;
+  --phoneWidth: 301px;
+  --phoneHeight: 615px;
+  border-radius: 42px;
+}
+
+.ApplePaySheet {
+  --paysheetCancelButtonSize: 13px;
+  --paysheetLogoWidth: 39px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.ApplePaySheet__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #0b3055;
+  opacity: 0.2;
+}
+
+.ApplePaySheet__sheet {
+  background: #fff;
+  box-shadow: 0 6px 12px -2px rgb(50 50 93 / 12%),
+    0 3px 7px -3px rgb(0 0 0 / 15%);
+  border-radius: 8px 8px 30px 30px;
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+}
+
+.ApplePaySheet__sheet {
+  background: #fff;
+  height: 200px;
+  box-shadow: 0 6px 12px -2px rgb(50 50 93 / 12%),
+    0 3px 7px -3px rgb(0 0 0 / 15%);
+  border-radius: 8px 8px 30px 30px;
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  left: 4px;
+}
